@@ -18,13 +18,12 @@ And(
   "User selects Check-in and Check-out dates for a week from the current date",
   () => {
     cy.get(staysPage.checkIn).click();
-    cy.get(staysPage.datePickerDay).eq(0).click();
-    cy.get(staysPage.datePickerDay).eq(7).click();
+    cy.get(staysPage.datePickerCurrentDay).first().click();
+    cy.get(staysPage.datePickerCurrentDay).eq(5).click();
     cy.get(staysPage.datePickerDoneButton).click();
   }
 );
 
 And("User clicks on Search button", () => {
   cy.get(staysPage.searchHotel).click();
-  cy.wait(1000)
 });
