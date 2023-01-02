@@ -1,0 +1,12 @@
+{
+    "flights": ":nth-child(2) > .uitk-tab-anchor > .uitk-tab-text",
+    "roundTrip": ".uitk-tabs-inner-container > :nth-child(1) > .uitk-tab-anchor > .uitk-tab-text",
+    "roundTripActive": "#uitk-tabs-button-container > div > li.uitk-tab.uitk-tab-button.active",
+    "oneWay": ".uitk-tabs-inner-container > :nth-child(2) > .uitk-tab-anchor > .uitk-tab-text",
+    "leavingFrom": "#location-field-leg1-origin-menu > .uitk-menu-trigger > .has-icon > .uitk-fake-input",
+    "goingTo": "#location-field-leg1-destination-menu > .uitk-menu-trigger > .has-icon > .uitk-fake-input",
+    "departing": "#wizard-flight-tab-roundtrip > div.uitk-layout-grid.uitk-layout-grid-has-auto-columns.uitk-layout-grid-has-columns-by-small.uitk-layout-grid-has-columns-by-medium.uitk-layout-grid-has-columns-by-large.uitk-layout-grid-has-columns.uitk-layout-grid-has-space.uitk-layout-grid-display-grid.uitk-spacing.uitk-spacing-padding-block-three > div:nth-child(2) > div > div > div:nth-child(1) > div",
+    "returning": "#wizard-flight-tab-roundtrip > div.uitk-layout-grid.uitk-layout-grid-has-auto-columns.uitk-layout-grid-has-columns-by-small.uitk-layout-grid-has-columns-by-medium.uitk-layout-grid-has-columns-by-large.uitk-layout-grid-has-columns.uitk-layout-grid-has-space.uitk-layout-grid-display-grid.uitk-spacing.uitk-spacing-padding-block-three > div:nth-child(2) > div > div > div:nth-child(2) > div",
+    "economyDropdown": "[data-testid='preferred-class-input-trigger']",
+    "economyDropdownOptionFirstClass": "#preferred-class-input > div > div > a:nth-child(4) > span"
+}

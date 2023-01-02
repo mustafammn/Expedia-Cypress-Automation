@@ -1,0 +1,20 @@
+{
+  "stays": "#wizardMainRegionV2 > div > div > div > div > ul > li.uitk-tab.active > a > span",
+  "stays_title": ".sb-searchbox__title-text",
+  "goingToButton": ".uitk-fake-input",
+  "goingToField": "#location-field-destination",
+  "goingToDropdownList": ".no-bullet",
+  "goingToDropdownOptions": "li button",
+  "checkIn": "#d1-btn",
+  "searchHotel": "[data-testid='submit-button']",
+  "travellers": "[data-stid='open-room-picker']",
+  "datePickerMenu": "[class='uitk-date-picker-day']",
+  "monthAndYear": ".selected > .uitk-date-picker-selection-date",
+  "datePickerNext": "#wizard-hotel-pwa-v2-1 > div.uitk-layout-grid.uitk-layout-grid-has-auto-columns.uitk-layout-grid-has-columns-by-small.uitk-layout-grid-has-columns-by-large.uitk-layout-grid-has-columns.uitk-layout-grid-has-space.uitk-layout-grid-display-grid.uitk-spacing.uitk-spacing-margin-blockstart-three > div:nth-child(2) > div > div > div:nth-child(1) > div > div.uitk-date-picker-menu-container.uitk-date-picker-menu-container-double.uitk-menu-container.uitk-menu-open.uitk-menu-pos-left.uitk-menu-container-autoposition.uitk-menu-container-text-nowrap > div > div.uitk-calendar > div.uitk-layout-flex.uitk-layout-flex-justify-content-space-between.uitk-date-picker-menu-pagination-container > button:nth-child(2)",
+  "datePickerDay": ".uitk-date-picker-day",
+  "datePickerDoneButton":".uitk-date-picker-menu-footer > .uitk-layout-flex-item > .uitk-button",
+  "childrenPlus": "[aria-label='Increase children in room 1']",
+  "child1Age": "#age-0",
+  "child2Age": "#age-1",
+  "travellersDoneButton": ".uitk-scrim > .uitk-button"
+}

@@ -1,0 +1,10 @@
+{
+    "tabs": "#wizardMainRegionV2 > div > div > div > div > ul > li",
+    "stays": ".uitk-card > .uitk-tabs-container > .uitk-tabs > .active > .uitk-tab-anchor > .uitk-tab-text",
+    "flights": ":nth-child(2) > .uitk-tab-anchor > .uitk-tab-text",
+    "cars": ":nth-child(3) > .uitk-tab-anchor > .uitk-tab-text",
+    "packages": ":nth-child(4) > .uitk-tab-anchor > .uitk-tab-text",
+    "thingsToDo": ":nth-child(5) > .uitk-tab-anchor > .uitk-tab-text",
+    "cruises": ":nth-child(6) > .uitk-tab-anchor > .uitk-tab-text",
+    "searchButton": "[data-testid='submit-button']"
+}
